@@ -1,6 +1,6 @@
 package com.ee542.iotgarbagecollector.service;
 
-import com.ee542.iotgarbagecollector.database.Node;
+import com.ee542.iotgarbagecollector.entity.Node;
 import com.ee542.iotgarbagecollector.database.NodeRepository;
 import org.springframework.stereotype.Service;
 

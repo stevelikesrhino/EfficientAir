@@ -1,16 +1,15 @@
-package com.ee542.iotgarbagecollector.database;
+package com.ee542.iotgarbagecollector.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.annotation.Nullable;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
-import reactor.util.annotation.NonNull;
+
 
 @Table("nodes")
 public record Node(
         @Id
-        @JsonProperty("timeStamp")
+        @JsonProperty("time_stamp")
         Long time,
         Short location,
         Byte fill,
