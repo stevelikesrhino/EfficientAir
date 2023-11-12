@@ -9,8 +9,9 @@ import reactor.util.annotation.NonNull;
 
 @Table("nodes")
 public record Node(
-        @JsonProperty("time_stamp")
-        @Id Long time,
+        @Id
+        @JsonProperty("timeStamp")
+        Long time,
         Short location,
         Byte fill,
         Byte humidity

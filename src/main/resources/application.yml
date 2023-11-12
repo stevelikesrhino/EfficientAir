@@ -7,6 +7,9 @@ spring:
     password: 542245542
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+server:
+  port : 9876
+
 logging:
   level:
     org.springframework.jdbc.core: DEBUG
