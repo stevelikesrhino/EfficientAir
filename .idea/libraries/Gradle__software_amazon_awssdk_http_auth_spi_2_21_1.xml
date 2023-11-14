@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: software.amazon.awssdk:http-auth-spi:2.21.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="software.amazon.awssdk" artifactId="http-auth-spi" version="2.21.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/http-auth-spi/2.21.1/ad56074e7125eb59533829f30c392c4f80c7d104/http-auth-spi-2.21.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/http-auth-spi/2.21.1/b0872b50b3a15410c82d7492300f166a9da3182b/http-auth-spi-2.21.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

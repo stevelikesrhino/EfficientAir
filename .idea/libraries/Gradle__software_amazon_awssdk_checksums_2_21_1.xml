@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: software.amazon.awssdk:checksums:2.21.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="software.amazon.awssdk" artifactId="checksums" version="2.21.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/checksums/2.21.1/563ef77a2d895e14b7b026efce008c710587d8ea/checksums-2.21.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/checksums/2.21.1/a95da0048fbabfcc5b83651778d286b17412d709/checksums-2.21.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

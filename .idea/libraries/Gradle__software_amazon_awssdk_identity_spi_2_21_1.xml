@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: software.amazon.awssdk:identity-spi:2.21.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="software.amazon.awssdk" artifactId="identity-spi" version="2.21.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/identity-spi/2.21.1/189ffc17010e85ff52a3af5cfa042efe47fa5303/identity-spi-2.21.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/identity-spi/2.21.1/9540e2e6cdcab162f30783e3c7e6d2430fb977a1/identity-spi-2.21.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: software.amazon.awssdk:http-auth-aws:2.21.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="software.amazon.awssdk" artifactId="http-auth-aws" version="2.21.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/http-auth-aws/2.21.1/17d162f75ec42be5d938d97c9f8b1c8d2a516a5c/http-auth-aws-2.21.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/http-auth-aws/2.21.1/eb6a00bf9fb24f1a0363b9da1e9ba853b4cf74f5/http-auth-aws-2.21.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: software.amazon.awssdk:aws-xml-protocol:2.21.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="software.amazon.awssdk" artifactId="aws-xml-protocol" version="2.21.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-xml-protocol/2.21.1/7620419e671761eabc12aa98f1173781e803e838/aws-xml-protocol-2.21.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-xml-protocol/2.21.1/23260e703fd10e3e7d054e13f40d9a5666b79093/aws-xml-protocol-2.21.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

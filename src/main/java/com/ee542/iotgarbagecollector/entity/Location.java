@@ -1,4 +1,4 @@
-package com.ee542.iotgarbagecollector.database;
+package com.ee542.iotgarbagecollector.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
