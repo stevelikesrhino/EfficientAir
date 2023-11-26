@@ -1,6 +1,7 @@
 package com.ee542.iotgarbagecollector.controller;
 
 import com.ee542.iotgarbagecollector.entity.Node;
+import com.ee542.iotgarbagecollector.service.NodeService;
 import com.ee542.iotgarbagecollector.service.PredictService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,5 +18,10 @@ public class PredictController {
     @GetMapping("/predict")
     public List<Node> getDataBatch() {
         return predictService.getDataBatch();
+    }
+
+    @GetMapping("/collectionInterval")
+    public List<List<Node>> getCollectionInterval(){
+        return predictService.getCollectionBatches();
     }
 }
