@@ -1,0 +1,122 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" external-system-id="GRADLE" name="Gradle : com.EE542 : IoTGarbageCollector-0.0.1-SNAPSHOT-plain.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/IoTGarbageCollector-0.0.1-SNAPSHOT-plain.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <buildTaskPath>:war_exploded</buildTaskPath>
+        <cleanTaskPath>:cleanWar_exploded</cleanTaskPath>
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/IoTGarbageCollector-0.0.1-SNAPSHOT-plain.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="IoTGarbageCollector.main/web/Web Gradle : IoTGarbageCollector-0.0.1-SNAPSHOT-plain.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="IoTGarbageCollector.main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-web:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-webflux:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-data-jdbc:3.1.5" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:s3:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:sso:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:ssooidc:2.21.1" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-json:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:6.0.13" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:6.0.13" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webflux:6.0.13" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-reactor-netty:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jdbc:3.1.5" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:crt-core:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:aws-xml-protocol:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:protocol-core:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:aws-core:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:auth:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:regions:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:sdk-core:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:endpoints-spi:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:arns:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:profiles:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:http-auth:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:http-auth-aws:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:http-auth-spi:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:identity-spi:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:http-client-spi:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:metrics-spi:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:json-utils:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:utils:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:annotations:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:aws-json-protocol:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:third-party-jackson-core:2.21.1" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.3" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.3" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.3" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.15.3" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:6.0.13" />
+          <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.33" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:6.0.13" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:6.0.13" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:6.0.13" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:6.0.13" />
+          <element id="library" level="project" name="Gradle: io.micrometer:micrometer-observation:1.11.5" />
+          <element id="library" level="project" name="Gradle: io.projectreactor:reactor-core:3.5.11" />
+          <element id="library" level="project" name="Gradle: io.projectreactor.netty:reactor-netty-http:1.1.12" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:6.0.13" />
+          <element id="library" level="project" name="Gradle: com.zaxxer:HikariCP:5.0.1" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-relational:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:3.1.5" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:6.0.13" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:2.0.9" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:aws-query-protocol:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.eventstream:eventstream:1.0.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:checksums:2.21.1" />
+          <element id="library" level="project" name="Gradle: software.amazon.awssdk:checksums-spi:2.21.1" />
+          <element id="library" level="project" name="Gradle: org.reactivestreams:reactive-streams:1.0.4" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.15.3" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.15.3" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.4.11" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.20.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:2.0.9" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:6.0.13" />
+          <element id="library" level="project" name="Gradle: io.micrometer:micrometer-commons:1.11.5" />
+          <element id="library" level="project" name="Gradle: io.projectreactor.netty:reactor-netty-core:1.1.12" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-http2:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-http:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-resolver-dns:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.4.11" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.20.0" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-handler-proxy:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-handler:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-transport:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-buffer:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-common:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-resolver-dns-classes-macos:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-dns:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-resolver:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-transport-classes-epoll:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-socks:4.1.100.Final" />
+          <element id="library" level="project" name="Gradle: com.mysql:mysql-connector-j:8.0.33" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/apache-client/2.21.1/76a9457a8f6d490b07af22e002202252b859bd3b/apache-client-2.21.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/netty-nio-client/2.21.1/dc7d20c351e6f30aaadc23009dfc6e18014bf1f1/netty-nio-client-2.21.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/51cf043c87253c9f58b539c9f7e44c8894223850/httpcore-4.4.16.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

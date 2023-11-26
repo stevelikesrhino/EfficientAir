@@ -9,7 +9,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @Table("nodes")
 public record Node(
         @Id
-        @JsonProperty("time_stamp")
+//        @JsonProperty("time_stamp")
         Long time,
         Short location,
         Byte fill,

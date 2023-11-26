@@ -13,11 +13,14 @@ public interface NodeRepository extends ListCrudRepository<Node, Long> {
     @Query("SELECT * FROM nodes")
     List<Node> findAllItems();
 
-    @Modifying
-    @Transactional
-    @Query("INSERT INTO nodes (time, location, fill, humidity) VALUES (:time_stamp, :location, :fill, :humidity)")
-    void insertNode(@Param("time_stamp") Long timeStamp,
-                    @Param("location") Short location,
-                    @Param("fill") Byte fill,
-                    @Param("humidity") Byte humidity);
+//    @Modifying
+//    @Transactional
+//    @Query("INSERT INTO nodes (time, location, fill, humidity) VALUES (:time_stamp, :location, :fill, :humidity)")
+//    void insertNode(@Param("time_stamp") Long timeStamp,
+//                    @Param("location") Short location,
+//                    @Param("fill") Byte fill,
+//                    @Param("humidity") Byte humidity);
+
+    @Query("SELECT * FROM nodes WHERE time >= :cutoffTimestamp")
+    List<Node> getDataBatch(@Param("cutoffTimestamp") Long cutoffTimestamp);
 }
