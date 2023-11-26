@@ -68,4 +68,12 @@ public class NodeService {
             }
         });
     }
+
+    // TODO: Get prediction
+    // return: next time the garbage can will be full, in Unix Timestamp, in ms.
+    public Long predictNextFull(List<Node> nodeList){
+        return 0L;
+    }
+
+    // TODO:
 }
