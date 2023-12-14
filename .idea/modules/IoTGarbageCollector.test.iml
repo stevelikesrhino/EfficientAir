@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="IoTGarbageCollector:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.EE542" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet external-system-id="GRADLE" type="web" name="Web">
+    <facet type="web" name="Web">
       <configuration>
         <webroots />
       </configuration>
@@ -22,6 +22,7 @@
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:s3:2.21.1" level="project" />
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:sso:2.21.1" level="project" />
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:ssooidc:2.21.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-security:3.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:3.1.5" level="project" />
     <orderEntry type="library" name="Gradle: io.projectreactor:reactor-test:3.5.11" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:3.1.5" level="project" />
@@ -54,6 +55,9 @@
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:annotations:2.21.1" level="project" />
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:aws-json-protocol:2.21.1" level="project" />
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:third-party-jackson-core:2.21.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-web:6.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-config:6.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:6.0.13" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:3.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test:3.1.5" level="project" />
     <orderEntry type="library" name="Gradle: com.jayway.jsonpath:json-path:2.8.0" level="project" />
@@ -82,7 +86,6 @@
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:10.1.15" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:10.1.15" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:6.0.13" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:6.0.13" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:6.0.13" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:6.0.13" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-observation:1.11.5" level="project" />
@@ -98,6 +101,7 @@
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:checksums:2.21.1" level="project" />
     <orderEntry type="library" name="Gradle: software.amazon.awssdk:checksums-spi:2.21.1" level="project" />
     <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-core:6.1.5" level="project" />
     <orderEntry type="library" name="Gradle: jakarta.activation:jakarta.activation-api:2.1.2" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:accessors-smart:2.4.11" level="project" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.14.9" level="project" />
@@ -118,6 +122,7 @@
     <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.100.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-resolver-dns:4.1.100.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.100.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:6.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:9.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.9.3" level="project" />

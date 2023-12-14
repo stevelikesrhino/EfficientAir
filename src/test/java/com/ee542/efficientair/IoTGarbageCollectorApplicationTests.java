@@ -1,4 +1,4 @@
-package com.ee542.iotgarbagecollector;
+package com.ee542.efficientair;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

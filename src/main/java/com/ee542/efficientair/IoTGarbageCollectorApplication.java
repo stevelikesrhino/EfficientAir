@@ -1,4 +1,4 @@
-package com.ee542.iotgarbagecollector;
+package com.ee542.efficientair;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
